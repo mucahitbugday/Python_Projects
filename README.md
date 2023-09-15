@@ -1,2 +1,1 @@
-# mp3cut
-ses dosyalarını istenilen uzunluk kadar parçalar
+pyinstaller --onefile --noconsole --icon=icon.ico main.py
