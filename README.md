@@ -1,1 +1,3 @@
-py to exe:  pyinstaller --onefile --noconsole --icon=icon.ico main.py
+mp3_cut :  
+
+text_replace:
