@@ -7,7 +7,8 @@ def dosya_degistir():
         with open(dosya_yolu, 'r', encoding='utf-8') as dosya:
             icerik = dosya.read()
             icerik = icerik.replace('\n', ' ')
-        
+            icerik = icerik.lower()  # İçeriği küçük harfe dönüştür
+            
         yeni_dosya_yolu = dosya_yolu[:-4] + '__NEW.txt'
         with open(yeni_dosya_yolu, 'w', encoding='utf-8') as yeni_dosya:
             yeni_dosya.write(icerik)
